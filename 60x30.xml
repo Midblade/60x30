@@ -1,52 +1,52 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="384" inline="true" x="161" y="69">
+  <block type="controls_repeat" id="1" inline="true" x="161" y="69">
     <value name="TIMES">
-      <block type="math_number" id="416">
+      <block type="math_number" id="2">
         <field name="NUM">2</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="10">
+      <block type="movement_forward" id="3">
         <next>
-          <block type="robot_delay" id="68" inline="true">
+          <block type="robot_delay" id="4" inline="true">
             <value name="DELAY">
-              <block type="math_number" id="298">
+              <block type="math_number" id="5">
                 <field name="NUM">5000</field>
               </block>
             </value>
             <next>
-              <block type="movement_forward" id="426">
+              <block type="movement_forward" id="6">
                 <next>
-                  <block type="robot_delay" id="450" inline="true">
+                  <block type="robot_delay" id="7" inline="true">
                     <value name="DELAY">
-                      <block type="math_number" id="468">
+                      <block type="math_number" id="8">
                         <field name="NUM">1000</field>
                       </block>
                     </value>
                     <next>
-                      <block type="movement_right" id="106">
+                      <block type="movement_right" id="9">
                         <next>
-                          <block type="robot_delay" id="117" inline="true">
+                          <block type="robot_delay" id="10" inline="true">
                             <value name="DELAY">
-                              <block type="math_number" id="330">
+                              <block type="math_number" id="11">
                                 <field name="NUM">1400</field>
                               </block>
                             </value>
                             <next>
-                              <block type="movement_forward" id="128">
+                              <block type="movement_forward" id="12">
                                 <next>
-                                  <block type="robot_delay" id="144" inline="true">
+                                  <block type="robot_delay" id="13" inline="true">
                                     <value name="DELAY">
-                                      <block type="math_number" id="345">
+                                      <block type="math_number" id="14">
                                         <field name="NUM">3000</field>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="movement_right" id="259">
+                                      <block type="movement_right" id="15">
                                         <next>
-                                          <block type="robot_delay" id="204" inline="true">
+                                          <block type="robot_delay" id="16" inline="true">
                                             <value name="DELAY">
-                                              <block type="math_number" id="353">
+                                              <block type="math_number" id="17">
                                                 <field name="NUM">1400</field>
                                               </block>
                                             </value>
@@ -71,7 +71,7 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="275"></block>
+      <block type="movement_stop" id="18"></block>
     </next>
   </block>
 </xml>
